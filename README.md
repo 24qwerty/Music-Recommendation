@@ -1,8 +1,9 @@
-# Avito-Demand-Prediction-Kaggle
+# Music-Recommendation-Kaggle
 
-Avito, Russia’s largest classified advertisements website has challenged to predict the demand for a product based on its advertisement. The dataset includes information about the user who posted the advertisement, the product that is being advertised along with the title and description. Also, information about similar advertisements in the given time frame is also provided.
+WSDM had challenged the Kaggle community to help to build a better music recommendation system. The dataset is from KKBOX, Asia’s leading music streaming service, holding the world’s most comprehensive Asia-Pop music library with over 30 million tracks.
 
+Performed extensive feature engineering on 7.4 million rows to extract and generate useful features for Machine Learning model using Python libraries like Pandas, Sklearn, Seaborn, and Matplotlib.
 
-My solution tries to leverage the textual information in form of title and description, numerical information as well as categorical data to predict the demand of the product advertised. This solution achieves 48.327% better performance over the baseline solution.. 
+Achieved 65.018% accuracy on private test data using LightGBM to predict whether a user would listen to a particular song within a month of the first listening event.
 
-https://www.kaggle.com/c/avito-demand-prediction
+https://www.kaggle.com/c/kkbox-music-recommendation-challenge
